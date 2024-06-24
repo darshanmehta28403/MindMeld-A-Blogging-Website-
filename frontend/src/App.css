@@ -1,0 +1,444 @@
+body {
+  font-family: 'Source Serif Pro', serif;
+}
+
+.link-relative {
+  position: relative;
+  display: flex;
+}
+
+.link-absolute {
+  position: absolute;
+  top: 10px;
+  right: 0px;
+}
+
+.heading {
+  font-family: 'Yeseva One', cursive;
+}
+
+.navbar {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1.1rem;
+}
+
+.home-bg {
+  width: 100%;
+  height: 630px;
+  object-fit: cover;
+}
+
+.relative {
+  position: relative;
+}
+
+.absolute {
+  border-radius: 20px;
+  top: 40%;
+  left: 5%;
+  background-color: white;
+  width: 30%;
+  padding: 30px;
+  position: absolute;
+  font-family: 'Playpen Sans', cursive;
+}
+
+.blog {
+  height: 150px;
+}
+
+.tags {
+  font-size: 0.9rem;
+  background-color: #e2e2e2;
+  padding: 5px;
+  border-radius: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.blogimg img {
+  height: inherit;
+  width: 100%;
+  object-fit: cover;
+}
+
+.home {
+  margin-top: 100px;
+}
+
+.home-heading-recent {
+  float: left;
+}
+
+.home-heading-hr {
+  display: inline-block;
+  width: 75%;
+  margin-left: 20px;
+}
+
+.signup-form {
+  border-radius: 20px;
+  padding: 50px;
+}
+
+.signup-form label {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.main-form {
+  padding-left: 150px;
+  padding-right: 150px;
+}
+
+.login-password {
+  margin-top: 60px;
+}
+
+.login-form {
+  font-family: 'Josefin Sans', sans-serif;
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px solid silver;
+  padding-left: 70px;
+  padding-right: 70px;
+  padding-top: 100px;
+  padding-bottom: 90px;
+  border-radius: 20px;
+}
+
+.readblog-img {
+  height: 700px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.footer {
+  padding: 50px;
+}
+
+.createblog label {
+  margin-top: 20px;
+}
+
+.createblog input {
+  margin-top: 0px;
+}
+
+.edituser {
+  padding: 50px;
+}
+
+.fullblog-img {
+  height: 600px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.page-heading {
+  background-color: black;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.blog-details {
+  font-family: 'Arial';
+}
+
+.readblog-details{
+  font-family: 'Arial';
+  font-size: 1.2rem;
+}
+
+.user-profile {
+  font-family: 'Noto Sans Georgian', sans-serif;
+}
+
+.write-blog {
+  font-family: 'Noto Sans Georgian', sans-serif;
+}
+
+.profile-pic {
+  height: 200px;
+  width: 200px;
+}
+
+.create-tag {
+  font-family: 'Noto Sans Georgian', sans-serif;
+}
+
+.panel {
+  font-family: 'Noto Sans Georgian', sans-serif;
+}
+
+.panel li{
+  padding: 20px;
+}
+
+.panel h6{
+  font-size: 1rem;
+}
+
+.panel i{
+  font-size: 1.5rem;
+}
+
+.blogs-admin:hover {
+  background-color: rgb(88, 84, 84);
+  transition: 0.5s;
+}
+
+.users-admin:hover {
+  background-color: rgb(88, 84, 84);
+  transition: 0.5s;
+}
+
+.tags-admin:hover {
+  background-color: rgb(88, 84, 84);
+  transition: 0.5s;
+}
+
+.admin-page{
+  background-color: #f7f7f7;
+}
+
+.admin-side {
+  font-family: 'Noto Sans Georgian', sans-serif;
+}
+
+.admin-side table,
+th,
+td {
+  border: 1px solid grey;
+  font-size: 1.2rem;
+}
+
+.admin-side table{
+  height: 550px;
+  overflow: scroll;
+}
+
+.admin-side td{
+  font-size: 1rem;
+}
+
+.contactus-form label{
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.tags-input ul{
+  height: 150px;
+  overflow-y: scroll;
+}
+
+@media only screen and (max-width: 500px) and (min-width: 250px) {
+  .link-relative {
+    position: static;
+  }
+
+  .link-absolute {
+    position: static;
+    margin-top: 175px;
+    margin-left: 90px;
+  }
+
+  .login-form {
+    position: static;
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 0px;
+    margin: 20px;
+    transform: none;
+  }
+
+  .login-form .mt-5 h5 {
+    font-size: 1rem;
+  }
+
+  .loginbutton {
+    font-size: 0.8rem;
+  }
+
+  .without-login {
+    font-size: 0.8rem;
+  }
+
+  .login-form h2 {
+    font-size: 1.3rem;
+  }
+
+  .labels {
+    float: left;
+    width: 30%;
+  }
+
+  .labels h5 {
+    font-size: 1rem;
+  }
+
+  .login-password {
+    margin-top: 65px;
+  }
+
+  .inputs {
+    float: right;
+    width: 70%;
+  }
+
+  .absolute {
+    display: none;
+  }
+
+  .home {
+    margin-top: 80px;
+  }
+
+  .home-heading-hr {
+    margin: 0px;
+    width: 95%;
+  }
+
+  .home-heading-recent h3 {
+    margin-bottom: 0px;
+  }
+
+  .card-div {
+    margin-top: 30px;
+  }
+
+  .card-au-name {
+    width: 50%;
+    float: left;
+  }
+
+  .card-date {
+    width: 50%;
+    float: right;
+    text-align: right;
+  }
+
+  .footer {
+    padding: 30px;
+  }
+
+  .footer h5 {
+    font-size: 1rem;
+  }
+
+  .abus {
+    font-size: 1rem;
+  }
+
+  .createblog label {
+    font-size: 1rem;
+    margin-top: 20px;
+  }
+
+  .createblog input {
+    padding: 2px;
+    margin-top: 0px;
+  }
+
+  .createblog input[name="submit"] {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .edituser {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .edituser label {
+    margin-top: 20px;
+    font-size: 1rem;
+  }
+
+  .edituser input[name="submit3"] {
+    margin-top: 20px;
+  }
+}
+
+@media only screen and (max-width: 1200px) and (min-width: 501px) {
+  .navbar li {
+    font-size: 1rem;
+  }
+
+  .link-absolute {
+    position: absolute;
+    top: 7px;
+    right: 0px;
+  }
+
+  .absolute {
+    top: 200px;
+  }
+
+  .absolute h2 {
+    font-size: 1.4rem;
+  }
+
+  .home-heading-recent {
+    /* border: 2px solid red; */
+    float: left;
+  }
+
+  .home-heading-recent h3 {
+    font-size: 1.2rem;
+  }
+
+  .home-heading-hr {
+    /* border: 2px solid red; */
+    float: right;
+    width: 73%;
+    margin-top: -5px;
+  }
+
+  .card-div {
+    margin-top: 40px;
+  }
+
+  .card {
+    height: 500px;
+  }
+
+  .card-div h6 {
+    font-size: 0.8rem;
+  }
+
+  .card-img-top {
+    height: 200px !important;
+    object-fit: cover;
+  }
+
+  .card-title {
+    font-size: 1rem;
+    height: 40px;
+    overflow: hidden;
+  }
+
+  .card-text {
+    height: 90px;
+  }
+
+  .card-body {
+    height: 10px;
+  }
+
+  .login-form {
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    transform: translate(-20%, -30%);
+    border: 1px solid silver;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 100px;
+    padding-bottom: 150px;
+    border-radius: 20px;
+  }
+}
